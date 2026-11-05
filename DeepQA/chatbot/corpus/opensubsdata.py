@@ -82,7 +82,7 @@ class OpensubsData:
                 else:
                     try:
                         strbuf = strbuf + " " + elem.text
-                    except:
+                    except TypeError:
                         pass
 
         conversations = []
